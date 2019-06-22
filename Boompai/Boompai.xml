@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sr5char ess="6.0" magic="mundane" meta="human" nuyen="39360">
+   <name>Boompai</name>
+   <realname>Dimitri Bobanoff</realname>
+   <attributes>
+      <attribute id="BODY" value="0"/>
+      <attribute id="AGILITY" start="4" value="4"/>
+      <attribute id="REACTION" start="3" value="3"/>
+      <attribute id="STRENGTH" value="0"/>
+      <attribute id="WILLPOWER" start="4" value="4"/>
+      <attribute id="LOGIC" start="4" value="4"/>
+      <attribute id="INTUITION" start="4" value="4"/>
+      <attribute id="CHARISMA" start="5" value="5"/>
+      <attribute id="EDGE" start="3" value="3"/>
+      <attribute id="MAGIC" value="0"/>
+      <attribute id="RESONANCE" value="0"/>
+      <attribute id="ESSENCE" start="6" value="6"/>
+   </attributes>
+   <skillval custname="Deutsch" skill="native_language" start="6" val="6"/>
+   <skillval custname="Russisch" skill="native_language2" start="6" val="6"/>
+   <skillval custname="Englisch" skill="language" start="2" val="2"/>
+   <skillval skill="blades" start="6" val="6"/>
+   <skillval skill="exoticRanged" start="6" val="6"/>
+   <skillgrpval id="STEALTH" start="5" val="5"/>
+   <skillval skill="tracking" start="6" val="6"/>
+   <skillval skill="survival" start="6" val="6"/>
+   <skillval skill="perception" start="6" val="6"/>
+   <skillval skill="first_aid" start="1" val="1"/>
+   <skillval skill="armorer" start="5" val="5"/>
+   <skillval custname="Helher" skill="street_knowledge" start="6" val="6"/>
+   <skillval custname="Konzernfinanzen - Saeder-Krupp" skill="street_knowledge" start="6" val="6"/>
+   <qualities>
+      <qualityval quality="bad_rep" val="1"/>
+      <qualityval quality="computer_illiterate" val="1"/>
+      <qualityval quality="vendetta" val="1"/>
+      <qualityval quality="analytical_mind" val="1"/>
+      <qualityval quality="astral_chameleon" val="1"/>
+      <qualityval quality="erased" val="1"/>
+      <qualityval quality="black_market_pipeline" val="1"/>
+      <qualityval quality="home_ground" val="1"/>
+      <qualityval quality="will_to_live" val="1"/>
+   </qualities>
+   <hairColor>Grau</hairColor>
+   <eyeColor>blau</eyeColor>
+   <ethnicity>Eurasisch</ethnicity>
+   <size>163</size>
+   <weight>80</weight>
+   <gender>MALE</gender>
+   <connections>
+      <connection id="30aa70a1-2453-445b-b578-7a61a4fe54b5" infl="3" loy="2" name="Angel" type="Fixer"/>
+      <connection id="536fe74b-d797-40e8-905c-5fcc524c4b28" infl="2" loy="3" name="Vladimir" type="Evo-Vertreter">
+         <description>gute-alte-Zeit</description>
+      </connection>
+      <connection id="2cc554be-a858-41bc-9dc4-c5a312a6721a" infl="1" loy="4" name="Beton" type="Schwarzmarkt händler">
+         <description>Dumm und Billig</description>
+      </connection>
+      <connection id="7a5937a3-c26c-4f1b-a89f-a0f66b81e26e" infl="2" loy="1" name="Eva" type="Prostituierte">
+         <description>Heiße Nächte auf der Reeperbahn</description>
+      </connection>
+   </connections>
+   <gear>
+      <item count="1" ref="combat_knife" uniqueid="71baed51-5625-4292-aacf-72ea12ca91c6"/>
+      <item count="1" ref="ares_predator_v" uniqueid="37e81707-d02b-4212-a9af-865038fb4f1a"/>
+      <item count="1" ref="ares_desert_strike" uniqueid="b0c9864e-bc8c-44b2-a71e-8c21776c3f71"/>
+      <item count="1" ref="pjss_model_55" uniqueid="02bea88b-4345-453e-ac4f-2c137f8be42c"/>
+      <item count="1" ref="armor_clothing" uniqueid="d562b84f-1e24-4ed5-9302-52be93820eb5"/>
+      <item count="1" ref="armor_jacket" uniqueid="1bf07b73-574b-4bea-ad4e-f02e70e52c19"/>
+      <item count="8" rating="1" ref="stim-patch" uniqueid="1219fafb-1a67-40a4-800f-2bb0140fb93e"/>
+      <item count="5" ref="fletchette_rounds" uniqueid="578eda3a-bbf2-4f0c-9547-9585b3f85f33"/>
+      <item count="5" ref="regular_ammo" uniqueid="1235a9bb-17b1-4fdc-a2d5-033a5bb22d56"/>
+      <item count="100" ref="novacoke" uniqueid="ce7aca9b-4e05-4a95-b0b9-e4ed8e2b61b5"/>
+      <item count="1" ref="gasmaske" uniqueid="f87016b5-5578-4268-b038-e68a48ab0e01"/>
+      <item count="1" ref="taschenlampe" uniqueid="a35a8cf4-45fe-4a0e-bb7e-2ffba22c4c13"/>
+      <item count="1" ref="survival-kit" uniqueid="50ae1bcd-ba02-4260-a7dd-d635760eff60"/>
+      <item count="1" rating="1" ref="medkit" uniqueid="a192e7cd-721f-4fac-b242-a29606164f40"/>
+      <item count="1" ref="meta_link" uniqueid="30d78d27-c314-46d3-a5bc-e8f16e75c9c1"/>
+      <item count="1" ref="samuvaniOtter" uniqueid="cede9436-1952-417e-93f4-71d31efd029c"/>
+   </gear>
+   <sins>
+      <sin name="Ratatatataam" quality="SECOND_LIFE" uniqueid="d34b7f96-c457-4b9b-af90-1ec11db5847b"/>
+      <sin name="Albreecht Antigon" quality="SECOND_LIFE" uniqueid="10e274a6-c2ab-47b3-8a4c-bb6935c8dbc3"/>
+   </sins>
+   <lifestyles>
+      <lifestyle months="3" ref="squatter" uniqueid="2caaf822-49a4-4cdb-9486-348e2566ea1c">
+         <options>
+            <lifeopt ref="dangerous_area"/>
+            <lifeopt ref="difficult_to_find"/>
+         </options>
+      </lifestyle>
+   </lifestyles>
+   <licenses>
+      <licenses name="Ares Desert Strike" rating="SUPERFICIALLY_PLAUSIBLE" sin="d34b7f96-c457-4b9b-af90-1ec11db5847b" uniqueid="2625e901-cbae-4297-a0ef-fd7c6922c2e4"/>
+      <licenses name="Ares Predator 5" rating="ANYONE" sin="d34b7f96-c457-4b9b-af90-1ec11db5847b" uniqueid="9ecb411b-c124-44ab-98d2-72f58cc24ea2"/>
+      <licenses name="PJSS" rating="SUPERFICIALLY_PLAUSIBLE" sin="d34b7f96-c457-4b9b-af90-1ec11db5847b" uniqueid="4ab41189-e105-43c3-93d0-9d36e49098d2"/>
+   </licenses>
+   <rewards>
+      <reward>
+         <title>Übrig von Erschaffung</title>
+         <modifications>
+            <nuyenmod value="5160"/>
+         </modifications>
+      </reward>
+   </rewards>
+</sr5char>

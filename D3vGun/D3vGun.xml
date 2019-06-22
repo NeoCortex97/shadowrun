@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sr5char ess="4.35" karmaF="1" magic="adept" meta="elf" nuyen="23080">
+   <name>D3vGun</name>
+   <realname>Boris Braun</realname>
+   <attributes>
+      <attribute id="BODY" start="4" value="4"/>
+      <attribute id="AGILITY" start="4" value="4"/>
+      <attribute id="REACTION" start="3" value="3"/>
+      <attribute id="STRENGTH" start="1" value="1"/>
+      <attribute id="WILLPOWER" start="4" value="4"/>
+      <attribute id="LOGIC" start="2" value="2"/>
+      <attribute id="INTUITION" start="2" value="2"/>
+      <attribute id="CHARISMA" value="0"/>
+      <attribute id="EDGE" value="0"/>
+      <attribute id="MAGIC" start="4" value="4"/>
+      <attribute id="RESONANCE" value="0"/>
+      <attribute id="ESSENCE" start="6" value="6"/>
+   </attributes>
+   <skillval custname="Deutsch" skill="native_language" start="6" val="6"/>
+   <skillval custname="Englisch" skill="language" start="1" val="1"/>
+   <skillval custname="Mafia Familien - Allgemein" skill="street_knowledge" start="4" val="4"/>
+   <skillval custname="Mafia Finanzen - Karewitchs" skill="street_knowledge" start="2" val="2"/>
+   <skillval custname="Mafia Politik - Karewitchs" skill="street_knowledge" start="1" val="1"/>
+   <skillval custname="Anarchismus - Allgemein" skill="interest" start="3" val="3"/>
+   <skillval custname="Angeln" skill="interest" start="1" val="1"/>
+   <skillval skill="blades" start="6" val="6"/>
+   <skillval skill="pistols" start="6" val="6"/>
+   <skillval skill="automatics" start="3" val="3"/>
+   <skillval skill="longarms" start="4" val="4"/>
+   <skillval skill="unarmed" start="1" val="1"/>
+   <qualities>
+      <qualityval quality="low_pain_tolerance" val="1"/>
+      <qualityval quality="codeblock" val="1"/>
+      <qualityval quality="poor_self_control_thrill_seeker" val="1"/>
+      <qualityval quality="lucky" val="1"/>
+      <qualityval quality="high_pain_tolerance" val="1"/>
+      <qualityval quality="quick_healer" val="1"/>
+   </qualities>
+   <powers>
+      <powerval choice="BODY" level="1" power="attribute_boost" uniqueid="3c1212ca-0bca-47f5-9179-1f1890464a26"/>
+      <powerval choice="AGILITY" level="1" power="attribute_boost" uniqueid="0d8b7695-fb24-4e56-aa07-dbb8c79ee77c"/>
+      <powerval choice="REACTION" level="1" power="attribute_boost" uniqueid="aba1f741-5b21-4488-ba76-74d3f0793a96"/>
+      <powerval choice="STRENGTH" level="1" power="attribute_boost" uniqueid="56065948-f82b-433d-8774-035b373092a0"/>
+      <powerval level="2" power="rapid_healing" uniqueid="24ee444e-e0d0-4756-b75f-160885cb96d8"/>
+      <powerval level="1" power="skate" uniqueid="275cb1e4-5ca7-4e2f-8c2b-abcac8915a16"/>
+      <powerval level="1" power="rapid_draw" uniqueid="a6e7859f-bd80-4884-9ce6-64d4bce4bb7d"/>
+      <powerval level="2" power="pain_resistance" uniqueid="6591c614-d080-4142-b9a0-9ff2bcb00c0b"/>
+      <powerval level="1" power="wall_running" uniqueid="88185f36-3c64-4ed0-bc67-da90ce717ace"/>
+   </powers>
+   <hairColor>schwarz</hairColor>
+   <eyeColor>blau</eyeColor>
+   <ethnicity>Eurasisch</ethnicity>
+   <size>185</size>
+   <weight>75</weight>
+   <gender>MALE</gender>
+   <connections>
+      <connection id="c9a47052-ef4a-4298-8d83-0c460495b556" infl="2" loy="2" name="Martin Karewitchs" type="Mafia Kontakt"/>
+      <connection id="d990224f-8644-4f10-a9d7-bf66e6d58b25" infl="1" loy="2" name="Antonio" type="Saeder-Krupp Sicherheit"/>
+      <connection id="223b11fb-1e94-4779-a053-5a87ceb25fae" infl="1" loy="1" name="Dimitry" type="Evo Vertreter">
+         <description>Wurde von dir auf Mafia gebiet gesichtet und 
+du hast ihn gehen lassen
+</description>
+      </connection>
+   </connections>
+   <gear>
+      <item count="1" ref="harley-davidsonScorpion" uniqueid="e62f2a0c-a519-4c75-bd12-8ee2bd3cffbc"/>
+      <item count="1" ref="stun_baton" uniqueid="cd823615-8dcc-4db8-8107-90962cea2c6f"/>
+      <item count="4" ref="throwing_knife" uniqueid="96ba463e-6561-443e-9bac-1784e9cbedc2"/>
+      <item count="1" ref="katana" uniqueid="0a65ad24-fdcf-4b1a-bf1e-d61dc5381629"/>
+      <item count="1" ref="ares_predator_v" uniqueid="97aaf002-3934-425f-8694-1451adfef53b"/>
+      <item count="1" ref="ares_desert_strike" uniqueid="5c6b9abb-d375-4415-ae5f-e9c0715ba0f7"/>
+      <item count="1" ref="ingram_smartgun_x" uniqueid="9004fe58-ee8f-432b-a509-d0478dfe5756"/>
+      <item count="1" qual="STANDARD" rating="1" ref="muskelverstaerkung" uniqueid="3a7073bc-bde1-4abb-99c5-2eeb47df868e"/>
+      <item count="1" ref="chameleon_suit" uniqueid="befb9b32-0a4e-4776-8388-6b660ef07b88"/>
+      <item count="1" ref="sony_emporer" uniqueid="132b2d80-41d2-4c60-bf0a-2a8a43df8a29"/>
+      <item count="10" rating="2" ref="stim-patch" uniqueid="734d1dec-164d-4d60-a28f-08d01d9bfcb2"/>
+      <item count="1" ref="kamikaze" uniqueid="8255824f-a6bb-43a3-be70-05b06726b7ea"/>
+      <item count="1" ref="gasmaske" uniqueid="91e77056-31e3-4188-bc6c-e56bc548a416"/>
+      <item count="10" ref="fletchette_rounds" uniqueid="c0cae3f4-09dc-449b-a37b-4186e731cd61"/>
+      <item count="3" ref="taser_dart" uniqueid="3f7305ed-f6c5-40c4-91fe-e617cf01d143"/>
+      <item count="10" ref="gel_rounds" uniqueid="82ec0c4a-e136-483d-af49-6e77d1374998"/>
+      <item count="1" qual="STANDARD" rating="1" ref="dermalpanzerung" uniqueid="d0b4731c-b2f0-4142-9d1f-86764307ab23"/>
+      <item count="1" qual="STANDARD" rating="1" ref="adrenalinpumpe" uniqueid="7f6438df-5194-4fc0-a17a-2aab17d400a9"/>
+      <item count="1" qual="STANDARD" rating="1" ref="symbionten" uniqueid="5ec61291-f3d8-4c69-ae15-961fdf28bfb7"/>
+   </gear>
+   <sins>
+      <sin name="Marcel" quality="SUPERFICIALLY_PLAUSIBLE" uniqueid="c2e263fb-521a-41d5-914a-00ddfd59990c"/>
+   </sins>
+   <lifestyles>
+      <lifestyle months="2" ref="low" uniqueid="94a29780-6e61-47e4-bd1d-5450a4ddb919">
+         <options>
+            <lifeopt ref="dangerous_area"/>
+            <lifeopt ref="thrify"/>
+         </options>
+      </lifestyle>
+   </lifestyles>
+   <licenses>
+      <licenses name="Ares Predator 5" rating="SUPERFICIALLY_PLAUSIBLE" sin="c2e263fb-521a-41d5-914a-00ddfd59990c" uniqueid="8fa0c2a8-b1ab-40a8-8969-953efeb2ed01"/>
+      <licenses name="Ares Desert Strike" rating="SUPERFICIALLY_PLAUSIBLE" sin="c2e263fb-521a-41d5-914a-00ddfd59990c" uniqueid="b59f031c-16d5-4ab9-afb1-481fd5775ad1"/>
+      <licenses name="Ingram Smartgun" rating="SUPERFICIALLY_PLAUSIBLE" sin="c2e263fb-521a-41d5-914a-00ddfd59990c" uniqueid="86c8a6e3-c42b-4873-afb6-80016e3e4094"/>
+   </licenses>
+   <rewards>
+      <reward exp="1">
+         <title>Übrig von Erschaffung</title>
+         <modifications>
+            <nuyenmod value="5480"/>
+         </modifications>
+      </reward>
+   </rewards>
+</sr5char>

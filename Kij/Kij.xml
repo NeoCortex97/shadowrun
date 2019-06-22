@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sr5char ess="6.0" karmaF="2" magic="magician" meta="dryad" nuyen="5000" trad="shinto">
+   <name>Kij</name>
+   <realname>Kinjia</realname>
+   <attributes>
+      <attribute id="BODY" start="4" value="4"/>
+      <attribute id="AGILITY" start="2" value="2"/>
+      <attribute id="REACTION" start="1" value="1"/>
+      <attribute id="STRENGTH" value="0"/>
+      <attribute id="WILLPOWER" start="4" value="4"/>
+      <attribute id="LOGIC" value="0"/>
+      <attribute id="INTUITION" start="1" value="1"/>
+      <attribute id="CHARISMA" start="4" value="4"/>
+      <attribute id="EDGE" start="5" value="5"/>
+      <attribute id="MAGIC" start="6" value="6"/>
+      <attribute id="RESONANCE" value="0"/>
+      <attribute id="ESSENCE" start="6" value="6"/>
+   </attributes>
+   <skillval skill="summoning" start="5" val="5"/>
+   <skillval skill="banishing" start="4" val="3"/>
+   <skillval skill="alchemy" start="5" val="5"/>
+   <skillval skill="perception" start="1" val="1"/>
+   <skillval skill="sneaking" start="3" val="3"/>
+   <skillval skill="clubs" start="5" val="5"/>
+   <skillval custname="Japanisch" skill="native_language" start="2" val="2"/>
+   <skillval custname="Englisch" skill="language" start="2" val="2"/>
+   <skillval custname="Deutsch" skill="language" start="2" val="2"/>
+   <skillval custname="Magische Traditionen - Shinto" skill="academic_knowledge" start="2" val="2"/>
+   <skillval skill="animal_handling" val="3"/>
+   <spells>
+      <spellval spell="camouflagecheck"/>
+      <spellval spell="control_animal"/>
+      <spellval spell="deflection"/>
+      <spellval spell="heal"/>
+      <spellval spell="stunball"/>
+      <spellval spell="icespear"/>
+      <spellval spell="fireball"/>
+      <spellval spell="deathtouch"/>
+      <spellval spell="mindnet"/>
+      <spellval spell="analyze_truth"/>
+   </spells>
+   <qualities>
+      <qualityval quality="code_of_honor" val="1"/>
+      <qualityval quality="unsteady_hands" val="1"/>
+      <qualityval choice="snake" quality="mentor_spirit" val="1"/>
+      <qualityval quality="night_vision" val="1"/>
+      <qualityval quality="catlike" val="1"/>
+      <qualityval quality="animal_empathy" val="1"/>
+      <qualityval quality="resistance_to2" val="1"/>
+      <qualityval quality="toughness" val="1"/>
+      <qualityval quality="analytical_mind" val="1"/>
+      <qualityval quality="magical_resistance" val="1"/>
+   </qualities>
+   <hairColor>Blond</hairColor>
+   <eyeColor>Blau</eyeColor>
+   <ethnicity>Asiatisch</ethnicity>
+   <size>170</size>
+   <weight>65</weight>
+   <gender>FEMALE</gender>
+   <connections>
+      <connection id="cacd81ac-b173-47fa-95f1-02585d3970e9" infl="2" loy="2" name="Angel" type="fixer"/>
+   </connections>
+   <gear>
+      <item count="1" ref="armor_clothing" uniqueid="5ea1abd3-8ffd-45fd-9e4d-3e4729fcd010"/>
+      <item count="1" ref="armor_jacket" uniqueid="6e564f36-4aa2-484f-a211-60169283af96"/>
+      <item count="1" ref="sony_emporer" uniqueid="110172b5-b7a2-4ef2-b809-70371268947a"/>
+      <item count="4" rating="1" ref="stim-patch" uniqueid="1f0bd7f7-d728-4e00-8b39-09f0b2ba5fda"/>
+      <item count="4" ref="throwing_knife" uniqueid="62e97655-f96a-4ae1-8130-60be99db489c"/>
+      <item count="1" ref="bow5" uniqueid="fa03ccf3-c2ed-4120-9062-8bc1a4f2c7d2"/>
+   </gear>
+   <lifestyles>
+      <lifestyle months="2" ref="traveler" uniqueid="dac87aa3-6fd4-4b17-85d2-906024fe6ab5"/>
+   </lifestyles>
+   <rewards>
+      <reward exp="2">
+         <title>Übrig von Erschaffung</title>
+         <modifications>
+            <nuyenmod value="5000"/>
+         </modifications>
+      </reward>
+   </rewards>
+</sr5char>

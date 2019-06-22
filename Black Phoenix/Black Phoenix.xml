@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sr5char ess="6.0" magic="mundane" meta="wakyambi" nuyen="140000">
+   <name>Black Phoenix </name>
+   <realname>Ariia Anca</realname>
+   <attributes>
+      <attribute id="BODY" value="2"/>
+      <attribute id="AGILITY" value="4"/>
+      <attribute id="REACTION" value="0"/>
+      <attribute id="STRENGTH" value="3"/>
+      <attribute id="WILLPOWER" value="2"/>
+      <attribute id="LOGIC" value="3"/>
+      <attribute id="INTUITION" value="0"/>
+      <attribute id="CHARISMA" value="0"/>
+      <attribute id="EDGE" value="5"/>
+      <attribute id="MAGIC" value="0"/>
+      <attribute id="RESONANCE" value="0"/>
+      <attribute id="ESSENCE" value="0"/>
+   </attributes>
+   <skillgrpval id="ATHLETICS" val="2"/>
+   <skillgrpval id="STEALTH" val="3"/>
+   <skillval skill="survival" val="3"/>
+   <skillval skill="perception" val="5"/>
+   <skillval skill="tracking" val="2"/>
+   <skillval skill="freefall" val="3"/>
+   <skillval skill="unarmed" val="5"/>
+   <skillval skill="blades" val="6"/>
+   <skillval skill="automatics" val="4"/>
+   <skillval skill="first_aid" val="4"/>
+   <skillval skill="medicine" val="4"/>
+   <skillval custname="Deutsch" skill="native_language" val="6"/>
+   <skillval custname="Engisch" skill="language" val="2"/>
+   <skillval custname="Soziologie - Japanisch" skill="academic_knowledge" val="3"/>
+   <skillval custname="Soziologie - Elfisch" skill="academic_knowledge" val="3"/>
+   <skillval custname="Antike Waffen - Japan" skill="professional_knowledge" val="2"/>
+   <qualities>
+      <qualityval quality="catlike" val="1"/>
+      <qualityval quality="addiction_moderate" val="1">
+         <description>Süchtig nach Kamikaze</description>
+      </qualityval>
+      <qualityval quality="code_of_honor" val="1"/>
+      <qualityval quality="natural_athlete" val="1"/>
+      <qualityval quality="analytical_mind" val="1"/>
+      <qualityval quality="natural_hardening" val="1"/>
+      <qualityval quality="resistance_to2" val="1"/>
+   </qualities>
+   <hairColor>Blond</hairColor>
+   <eyeColor>Blau</eyeColor>
+   <ethnicity>Eurasisch</ethnicity>
+   <size>178</size>
+   <weight>70</weight>
+   <gender>FEMALE</gender>
+   <sins>
+      <sin name="Roger Rouge" quality="SUPERFICIALLY_PLAUSIBLE" uniqueid="ff93d9b7-c31e-46f7-9f30-0fd5ac64d650"/>
+   </sins>
+</sr5char>

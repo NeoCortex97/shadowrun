@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sr5char ess="4.8" karmaF="8" magic="adept" meta="troll" nuyen="48880">
+   <name>Kas</name>
+   <realname>Zulkaz</realname>
+   <attributes>
+      <attribute id="BODY" start="2" value="2"/>
+      <attribute id="AGILITY" start="1" value="1"/>
+      <attribute id="REACTION" start="2" value="2"/>
+      <attribute id="STRENGTH" start="3" value="3"/>
+      <attribute id="WILLPOWER" start="1" value="1"/>
+      <attribute id="LOGIC" start="1" value="1"/>
+      <attribute id="INTUITION" start="1" value="1"/>
+      <attribute id="CHARISMA" start="1" value="1"/>
+      <attribute id="EDGE" value="0"/>
+      <attribute id="MAGIC" start="2" value="2"/>
+      <attribute id="RESONANCE" value="0"/>
+      <attribute id="ESSENCE" start="6" value="6"/>
+   </attributes>
+   <skillgrpval id="CLOSE_COMBAT" start="5" val="5"/>
+   <skillgrpval id="STEALTH" start="2" val="2"/>
+   <skillgrpval id="OUTDOORS" start="1" val="1"/>
+   <skillgrpval id="ATHLETICS" start="2" val="2"/>
+   <skillval custname="Deutsch" skill="native_language" start="6" val="6"/>
+   <skillval custname="Englisch" skill="language" start="1" val="1"/>
+   <skillval custname="Hinterhofwerkstätten - Groß Frankfurt" skill="street_knowledge" start="2" val="2"/>
+   <skillval custname="Waffenhändler - Klingenwaffen" skill="street_knowledge" start="3" val="3"/>
+   <skillval custname="Polizeimaßnahmen - Sternschutz" skill="street_knowledge" start="2" val="2"/>
+   <skillval skill="exoticClose" start="6" val="6"/>
+   <skillval skill="pistols" start="4" val="4"/>
+   <skillval skill="intimidation" start="6" val="6">
+      <skillspec special="intimidation/mental"/>
+   </skillval>
+   <skillval skill="first_aid" start="6" val="6">
+      <skillspec special="first_aid/gunshot_wounds"/>
+   </skillval>
+   <skillval skill="automatics" start="6" val="6">
+      <skillspec special="automatics/assaultrifles"/>
+   </skillval>
+   <skillval skill="perception" start="6" val="6"/>
+   <skillval skill="throwing" start="1" val="1"/>
+   <skillval skill="heavyweapons" start="1" val="1"/>
+   <skillval skill="archery" start="3" val="3">
+      <skillspec special="archery/crossbow"/>
+   </skillval>
+   <skillval skill="longarms" start="2" val="2"/>
+   <skillval skill="exoticRanged" start="1" val="1"/>
+   <qualities>
+      <qualityval quality="distinctive_style" val="1"/>
+      <qualityval quality="bad_rep" val="1"/>
+      <qualityval quality="codeblock" val="1"/>
+      <qualityval quality="perceptive" val="2"/>
+      <qualityval quality="quick_healer" val="1"/>
+      <qualityval quality="toughness" val="1"/>
+      <qualityval quality="will_to_live" val="1"/>
+      <qualityval quality="high_pain_tolerance" val="2"/>
+   </qualities>
+   <powers>
+      <powerval level="1" power="berserk" uniqueid="4c3bfab9-d79c-4e44-8c18-f7c482e0daab"/>
+      <powerval level="2" power="rapid_healing" uniqueid="ffc1ec6e-23fa-464e-ab52-6a9f56650781"/>
+   </powers>
+   <hairColor>schwarz</hairColor>
+   <eyeColor>gift grün</eyeColor>
+   <ethnicity>Eurasisch</ethnicity>
+   <size>280</size>
+   <weight>160</weight>
+   <gender>MALE</gender>
+   <connections>
+      <connection id="db989aae-1564-4bdf-bda7-63b6621f643a" infl="2" loy="3" name="John Snow" type="Waffenhändler"/>
+      <connection id="a82ebf5f-96b7-46cf-ad76-5bc225fdba33" infl="3" loy="3" name="Angel" type="fixer"/>
+   </connections>
+   <gear>
+      <item count="1" ref="meta_link" uniqueid="f57a5147-6a00-4729-98a2-caeb142665f3"/>
+      <item count="10" rating="1" ref="stim-patch" uniqueid="778ec848-b3d1-42cc-bb46-405e84a6491d"/>
+      <item count="1" ref="katana" uniqueid="c3657223-27a3-4ff4-a353-307155ca6dd2"/>
+      <item count="1" ref="walther_palm_pistol" uniqueid="9316bd25-fb9c-41a3-a839-2280975465f8"/>
+      <item count="5" ref="regular_ammo" uniqueid="1722252f-95a0-4f4c-9c0d-dc4a9cf0041f"/>
+      <item count="5" ref="gel_rounds" uniqueid="402930a6-7f3c-4d9d-a327-a8bd541b4624"/>
+      <item count="1" ref="armor_clothing" uniqueid="9bec4307-6336-4841-8d9d-841a47fc5a21"/>
+      <item count="1" ref="kamikaze" uniqueid="6218f5d5-93c3-43b9-a482-9748af4363c5"/>
+      <item count="1" qual="STANDARD" rating="1" ref="dermalpanzerung" uniqueid="e34ef3b1-6700-4bd0-b414-b6945b204027"/>
+      <item count="1" qual="STANDARD" rating="1" ref="muskelverstaerkung" uniqueid="25b95a21-6d45-4577-8082-f06203cca658"/>
+      <item count="1" qual="STANDARD" ref="kompositknochenKunststoff" uniqueid="d4ecedcb-03df-4774-870d-3b94383e4dbd"/>
+      <item count="1" ref="aresRoadmaster" uniqueid="7d4f0ec7-d997-47f8-9d56-0906931a4d8d">
+         <accessories>
+            <accessory capacity="18" ref="VEHICLE_DRIVE">
+               <carrieditem count="1" ref="riggerinterface" uniqueid="32fa1057-4193-4d5c-8cd5-426b567bf74d"/>
+            </accessory>
+         </accessories>
+      </item>
+      <item count="1" ref="mctFly-spy" uniqueid="ad86a083-e101-4141-858d-0222487028c8"/>
+      <item count="1" ref="shiawaseKanmuchi" uniqueid="bb64921e-2ac2-4f1e-a187-0a8a40ba91e4"/>
+   </gear>
+   <sins>
+      <sin name="Mikoko" quality="SUPERFICIALLY_PLAUSIBLE" uniqueid="add8c4bf-ab20-4c8a-8f80-f678e02c18e7"/>
+   </sins>
+   <lifestyles>
+      <lifestyle ref="low" uniqueid="31c96737-1e78-423c-9dff-47379c010c4f">
+         <options>
+            <lifeopt ref="cramped"/>
+            <lifeopt ref="difficult_to_find"/>
+         </options>
+      </lifestyle>
+   </lifestyles>
+   <licenses>
+      <licenses name="Walter Palm pistol" rating="SUPERFICIALLY_PLAUSIBLE" sin="add8c4bf-ab20-4c8a-8f80-f678e02c18e7" uniqueid="77a1c6f0-d399-4931-ad02-bdfc24dacb81"/>
+      <licenses name="Führerschein" rating="SUPERFICIALLY_PLAUSIBLE" sin="add8c4bf-ab20-4c8a-8f80-f678e02c18e7" uniqueid="df9ec3b3-b1ee-4103-a8bc-a49ee9037249"/>
+   </licenses>
+   <rewards>
+      <reward exp="8">
+         <title>Übrig von Erschaffung</title>
+         <modifications>
+            <nuyenmod value="5480"/>
+         </modifications>
+      </reward>
+   </rewards>
+</sr5char>
