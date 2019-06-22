@@ -9,3 +9,6 @@ The data of my players shadowrun characters
 5. Klone dieses repository in den "myself" Ordner.
 6. Starte genesis neu oder starte genesis.
 7. Fertig! Die Charaktere sollten zu sehen sein.
+
+## Links
+Hier ist der Downloadlink für den "genesis" Charaktergenerator: [rpgframework](https://www.rpgframework.de/index.php/de/genesis-2/)
