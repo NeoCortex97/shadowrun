@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sr5char ess="2.5" karmaF="-8" magic="mundane" meta="human" nuyen="229355">
+   <name>Tak</name>
+   <realname>Takumi</realname>
+   <attributes>
+      <attribute id="BODY" start="2" value="2"/>
+      <attribute id="AGILITY" start="4" value="4"/>
+      <attribute id="REACTION" start="4" value="4"/>
+      <attribute id="STRENGTH" start="2" value="2"/>
+      <attribute id="WILLPOWER" start="2" value="2"/>
+      <attribute id="LOGIC" start="4" value="4"/>
+      <attribute id="INTUITION" start="2" value="2"/>
+      <attribute id="CHARISMA" value="0"/>
+      <attribute id="EDGE" start="3" value="3"/>
+      <attribute id="MAGIC" value="0"/>
+      <attribute id="RESONANCE" value="0"/>
+      <attribute id="ESSENCE" start="6" value="6"/>
+   </attributes>
+   <skillval custname="Japanisch" skill="native_language" start="6" val="6"/>
+   <skillval custname="Englisch" skill="language" start="4" val="4"/>
+   <skillval custname="Deutsch" skill="language" start="2" val="2"/>
+   <skillval custname="Automobile - Allgemein" skill="interest" start="3" val="3"/>
+   <skillval custname="Hubschreuber - Allgemein" skill="interest" start="2" val="2"/>
+   <skillval custname="Millitärflugzeuge - Allgemein" skill="interest" start="2" val="2"/>
+   <skillval custname="Panzer - Allgemein" skill="interest" start="3" val="3"/>
+   <skillval skill="pilot_ground_craft" start="5" val="5"/>
+   <skillval skill="pilot_watercraft" start="5" val="5"/>
+   <skillval skill="demolitions" start="1" val="1"/>
+   <skillval skill="navigation" start="1" val="1"/>
+   <skillval skill="sneaking" start="1" val="1"/>
+   <skillval skill="perception" start="4" val="4"/>
+   <skillval skill="heavyweapons" start="3" val="3"/>
+   <skillval skill="automatics" start="3" val="3"/>
+   <skillval skill="longarms" start="4" val="4"/>
+   <skillval skill="hardware" start="1" val="1"/>
+   <skillgrpval id="ATHLETICS" start="2" val="2"/>
+   <qualities>
+      <qualityval quality="code_of_honor" val="1"/>
+      <qualityval quality="elf_poser" val="1"/>
+      <qualityval quality="steely_eyed_wheelman" val="1"/>
+      <qualityval quality="guts" val="1"/>
+      <qualityval quality="quick_healer" val="1"/>
+      <qualityval quality="juryrigger" val="1"/>
+      <qualityval quality="overclocker" val="1"/>
+      <qualityval quality="hawk_eye" val="1"/>
+      <qualityval quality="codeslinger" val="1"/>
+      <qualityval quality="gearhead" val="1"/>
+   </qualities>
+   <hairColor>Schwarzer Irokese</hairColor>
+   <eyeColor>Braun</eyeColor>
+   <ethnicity>Asiatisch</ethnicity>
+   <size>183</size>
+   <weight>94</weight>
+   <gender>MALE</gender>
+   <connections>
+      <connection id="56efa9a3-20d1-4259-9026-a8f9311c42d8" infl="1" loy="1" name="Angel" type="Fixer"/>
+   </connections>
+   <gear>
+      <item count="1" qual="STANDARD" ref="datenbuchse" uniqueid="b09477aa-9f2e-4236-b3f8-64a485719e22"/>
+      <item count="1" qual="STANDARD" ref="cyberarm,Ganz,Offensichtlich" uniqueid="325158b5-6ace-4e9a-a6a9-a4b85b71754c">
+         <accessories>
+            <accessory capacity="15" ref="CYBERLIMB_IMPLANT"/>
+         </accessories>
+      </item>
+      <item count="1" ref="lonestar_remote_comm" uniqueid="41e0a9c0-a036-44dc-801a-e9f777c22080">
+         <programs>
+            <programs ref="biofeedback_filter"/>
+            <programs ref="sneak"/>
+            <programs ref="armor"/>
+            <programs ref="shell"/>
+            <programs ref="toolbox"/>
+            <programs ref="signal_scrub"/>
+            <programs ref="encryption"/>
+            <programs ref="wrapper"/>
+            <programs ref="virtual_machine"/>
+         </programs>
+      </item>
+      <item count="1" qual="STANDARD" ref="riggerkontrolleStufe2" uniqueid="67403ed3-96bc-402b-8030-5b682edd08a6"/>
+      <item count="1" ref="shiawaseKanmuchi" uniqueid="acea2334-57a8-400b-8ed9-b576a08f7f70"/>
+      <item count="1" ref="horizonFlyingEye" uniqueid="9c0d78e3-f5cc-41ae-a2e1-013c6af8e855"/>
+      <item count="1" ref="horizonFlyingEyeMitFlash-pak" uniqueid="0b153192-b8b8-4d0b-aced-474771214229"/>
+      <item count="1" ref="steelLynx" uniqueid="884a908f-4801-4283-81e0-7eacbd50bd4a"/>
+      <item count="1" ref="ares_predator_v" uniqueid="0d465a71-727c-4f3d-ad73-3610fd606b1e">
+         <accessories>
+            <accessory ref="BARREL">
+               <carrieditem count="1" ref="silencer" uniqueid="27a6cf12-56a2-4867-83cd-1f484592de45"/>
+            </accessory>
+         </accessories>
+      </item>
+      <item count="1" ref="pjss_model_55" uniqueid="3f420e74-a5a6-4cc8-9715-cc4356410185"/>
+      <item count="1" ref="ingram_smartgun_x" uniqueid="587734dc-ed25-416f-a067-de17f1f5e6f2"/>
+      <item count="1" ref="sony_emporer" uniqueid="67579dcc-8ef0-4e52-bac2-ed1c20714329">
+         <programs>
+            <programs ref="baby_monitor"/>
+         </programs>
+      </item>
+      <item count="1" qual="STANDARD" ref="cyberaugeStufe3" uniqueid="5b7769c4-7bf1-4fc0-936c-3ca1c9fcb3c1">
+         <accessories>
+            <accessory capacity="12" ref="CYBEREYE_IMPLANT">
+               <carrieditem count="1" ref="okulardrohne" uniqueid="732e0fed-87e0-4697-a7f5-a220c1092f05"/>
+               <carrieditem count="1" ref="blitzkompensation_capacity" uniqueid="012067b5-f633-483d-b148-cff481f0003e"/>
+            </accessory>
+         </accessories>
+      </item>
+      <item count="1" rating="3" ref="agent1_3" uniqueid="15c6ca00-8bf2-4ea7-988b-c5e3e1f70c5e"/>
+   </gear>
+   <lifestyles>
+      <lifestyle months="2" ref="traveler" uniqueid="777f1539-d95b-4d92-96e6-4864379cceab"/>
+   </lifestyles>
+   <rewards>
+      <reward exp="-8">
+         <title>Übrig von Erschaffung</title>
+         <modifications>
+            <nuyenmod value="5000"/>
+         </modifications>
+      </reward>
+   </rewards>
+</sr5char>
