@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sr5char ess="6.0" karmaF="2" magic="mundane" meta="human" nuyen="6000">
+   <name>BOOMpa</name>
+   <realname>Dimitr Bombanoff</realname>
+   <attributes>
+      <attribute id="BODY" start="4" value="4"/>
+      <attribute id="AGILITY" start="2" value="2"/>
+      <attribute id="REACTION" start="3" value="3"/>
+      <attribute id="STRENGTH" start="3" value="3"/>
+      <attribute id="WILLPOWER" start="2" value="2"/>
+      <attribute id="LOGIC" start="3" value="3"/>
+      <attribute id="INTUITION" start="3" value="3"/>
+      <attribute id="CHARISMA" start="5" value="5"/>
+      <attribute id="EDGE" start="3" value="3"/>
+      <attribute id="MAGIC" value="0"/>
+      <attribute id="RESONANCE" value="0"/>
+      <attribute id="ESSENCE" start="6" value="6"/>
+   </attributes>
+   <skillval skill="demolitions" start="6" val="6"/>
+   <skillval skill="clubs" start="6" val="6"/>
+   <skillval skill="con" start="5" val="5"/>
+   <skillval skill="negotiating" start="6" val="6"/>
+   <skillval skill="leadership" start="5" val="5"/>
+   <skillgrpval id="STEALTH" start="2" val="2"/>
+   <skillval custname="Architektur" skill="professional_knowledge" start="6" val="6"/>
+   <skillval custname="Sicherheitsfirma" skill="street_knowledge" start="6" val="6"/>
+   <skillval custname="Deutsch" skill="native_language" start="4" val="4"/>
+   <skillval custname="Japanisch" skill="native_language2" start="4" val="4"/>
+   <qualities>
+      <qualityval quality="berserker" val="1"/>
+      <qualityval quality="bad_rep" val="1"/>
+      <qualityval quality="scorched" val="1"/>
+      <qualityval quality="high_pain_tolerance" val="3"/>
+      <qualityval quality="guts" val="1"/>
+   </qualities>
+   <hairColor>Grau</hairColor>
+   <eyeColor>Blau</eyeColor>
+   <ethnicity>???</ethnicity>
+   <size>165</size>
+   <weight>75</weight>
+   <gender>MALE</gender>
+   <connections>
+      <connection id="f400f2d6-dd0d-48a4-85c3-90406778a654" infl="3" loy="2" name="Angel" type="Fixer"/>
+      <connection id="3d756ee4-651d-4555-bbfa-abb7fb423085" infl="3" loy="2" name="Vladimir" type="Evo-Vertreter"/>
+      <connection id="8b5be59c-2dc4-406a-8c5d-5dcbe3436398" infl="4" loy="1" name="Beton" type="Schwarzmarkthändler"/>
+      <connection id="fd3f0336-11c2-49d8-95db-bf134d253f61" infl="1" loy="2" name="Eva" type="Prostituierte"/>
+   </connections>
+   <gear>
+      <item count="1" ref="club" uniqueid="b361439d-76ff-4e60-b6ce-46ecab217dfe"/>
+      <item count="1" ref="stun_baton" uniqueid="0fd1b116-1803-4a03-a78d-6d4156f97d87"/>
+      <item count="1" ref="armor_jacket" uniqueid="e205be28-749f-434c-9149-5e972c36c21d"/>
+      <item count="1" ref="sony_emporer" uniqueid="a514f5ac-bea4-448c-a757-2c58a15b84fc"/>
+      <item count="6" rating="3" ref="stim-patch" uniqueid="17b2baec-e235-4f90-9c3c-80126181ab42"/>
+      <item count="1" ref="trauma-patch" uniqueid="3b6b1f58-ef77-49f6-9e3b-a5356a6839fd"/>
+      <item count="1" ref="credstick_gold" uniqueid="add6d09e-1029-42b3-a285-e7b20bb5d01a"/>
+      <item count="10" ref="fragmentation" uniqueid="e8fb9742-8e18-45ba-891c-9c7dea8a3f2d"/>
+      <item count="10" ref="high_explosive" uniqueid="b0dbe04b-3369-48d2-8fe4-8e310851e960"/>
+      <item count="5" ref="smoke" uniqueid="4cf86f9e-0cc6-48f4-a5e8-0896e094970b"/>
+      <item count="10" ref="magnesiumfackel" uniqueid="c20a2be4-0c46-4073-8af6-ae573d121ed9"/>
+   </gear>
+   <lifestyles>
+      <lifestyle months="1" ref="middle" uniqueid="d242cd47-6d6e-4f31-bfa5-54a71582e97b"/>
+   </lifestyles>
+   <rewards>
+      <reward exp="2">
+         <title>Übrig von Erschaffung</title>
+         <modifications>
+            <nuyenmod value="6000"/>
+         </modifications>
+      </reward>
+   </rewards>
+</sr5char>
