@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<sr5char ess="6.0" karmaF="6" magic="adept" meta="dryad" nuyen="12500">
+<sr5char ess="6.0" karmaF="6" magic="adept" meta="dryad" nuyen="11700">
    <name>Spike</name>
    <attributes>
       <attribute id="BODY" start="4" value="4"/>
@@ -63,6 +63,9 @@
    <lifestyles>
       <lifestyle months="1" ref="high" uniqueid="5bdb7a46-30c9-471f-8ea8-705a699d0550"/>
    </lifestyles>
+   <licenses>
+      <licenses name="Führerschein - Auto" rating="SUPERFICIALLY_PLAUSIBLE" sin="308bc057-7b7d-4583-a22e-0d041dc76674" uniqueid="a73362ac-db4e-4cb8-a249-872506a2a28b"/>
+   </licenses>
    <rewards>
       <reward exp="6">
          <title>Übrig von Erschaffung</title>
