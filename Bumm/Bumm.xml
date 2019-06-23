@@ -104,6 +104,9 @@
       </item>
       <item count="1" rating="3" ref="agent1_3" uniqueid="15c6ca00-8bf2-4ea7-988b-c5e3e1f70c5e"/>
    </gear>
+   <sins>
+      <sin name="MikroMan" quality="SUPERFICIALLY_PLAUSIBLE" uniqueid="117331d4-c907-4280-a26b-4358a04682c4"/>
+   </sins>
    <lifestyles>
       <lifestyle months="2" ref="traveler" uniqueid="777f1539-d95b-4d92-96e6-4864379cceab"/>
    </lifestyles>
