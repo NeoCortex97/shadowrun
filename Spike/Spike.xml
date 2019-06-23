@@ -1,94 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<sr5char ess="2.3999999" karmaF="2" magic="technomancer" meta="dwarf" nuyen="23560">
+<sr5char ess="6.0" karmaF="6" magic="adept" meta="dryad" nuyen="12500">
    <name>Spike</name>
-   <realname>Roland Blaubart</realname>
    <attributes>
-      <attribute id="BODY" start="2" value="2"/>
-      <attribute id="AGILITY" start="3" value="3"/>
-      <attribute id="REACTION" value="0"/>
-      <attribute id="STRENGTH" start="1" value="1"/>
-      <attribute id="WILLPOWER" start="2" value="2"/>
-      <attribute id="LOGIC" start="3" value="3"/>
-      <attribute id="INTUITION" start="3" value="3"/>
-      <attribute id="CHARISMA" value="0"/>
-      <attribute id="EDGE" start="1" value="1"/>
-      <attribute id="MAGIC" value="0"/>
-      <attribute id="RESONANCE" start="4" value="4"/>
+      <attribute id="BODY" start="4" value="4"/>
+      <attribute id="AGILITY" start="4" value="4"/>
+      <attribute id="REACTION" start="4" value="4"/>
+      <attribute id="STRENGTH" value="0"/>
+      <attribute id="WILLPOWER" value="0"/>
+      <attribute id="LOGIC" value="0"/>
+      <attribute id="INTUITION" start="4" value="4"/>
+      <attribute id="CHARISMA" start="4" value="4"/>
+      <attribute id="EDGE" start="5" value="5"/>
+      <attribute id="MAGIC" start="4" value="4"/>
+      <attribute id="RESONANCE" value="0"/>
       <attribute id="ESSENCE" start="6" value="6"/>
    </attributes>
-   <skillval skill="decompiling" start="3" val="3"/>
-   <skillval skill="compiling" start="3" val="3"/>
-   <skillval skill="registering" start="3" val="3"/>
-   <skillval skill="cybercombat" start="3" val="3"/>
-   <skillval skill="perception" start="3" val="3"/>
-   <skillval skill="first_aid" start="3" val="3"/>
-   <skillval custname="Deutsch" skill="native_language" start="6" val="6"/>
-   <skillval custname="Waffenhändler - Allgemein" skill="street_knowledge" start="6" val="6"/>
-   <skillval custname="Bodyshops - Allgemein" skill="street_knowledge" start="6" val="6"/>
-   <skillval custname="English" skill="language" start="4" val="4"/>
+   <skillval skill="blades" start="4" val="4"/>
+   <skillval skill="archery" start="4" val="4"/>
+   <skillval skill="unarmed" start="4" val="4"/>
+   <skillval skill="animal_handling" start="6" val="6"/>
+   <skillval skill="perception" start="2" val="2"/>
+   <skillval custname="Englisch" skill="native_language" start="6" val="6"/>
+   <skillval custname="Deutsch" skill="language" start="2" val="2"/>
+   <skillval custname="Parazoologie - Regenwald" skill="academic_knowledge" start="6" val="6"/>
+   <skillval custname="Tauchgebiete - Wracktauchen" skill="interest" start="2" val="2"/>
+   <skillval custname="Drakoformen - Echte Drachen" skill="academic_knowledge" start="1" val="1"/>
+   <skillval custname="Drakoformen - Dracomorphe" skill="academic_knowledge" start="1" val="1"/>
    <qualities>
-      <qualityval quality="berserker" val="1"/>
-      <qualityval quality="ex-con" val="1"/>
-      <qualityval quality="high_pain_tolerance" val="3"/>
-      <qualityval quality="focused_concentration" val="5"/>
-      <qualityval quality="quick_healer" val="1"/>
+      <qualityval quality="sinner_national" val="1"/>
+      <qualityval quality="uncouth" val="1"/>
+      <qualityval quality="animal_empathy" val="1"/>
+      <qualityval quality="night_vision" val="1"/>
+      <qualityval quality="outdoorsman" val="1"/>
    </qualities>
-   <complexforms>
-      <complexval ref="puppeteer"/>
-      <complexval ref="transcendent_grid"/>
-   </complexforms>
-   <hairColor>feuerrot</hairColor>
-   <eyeColor>blau</eyeColor>
-   <ethnicity>Eurasisch</ethnicity>
-   <size>150</size>
-   <weight>110</weight>
+   <powers>
+      <powerval level="4" power="animal_empathy" uniqueid="569275ff-727e-47bf-8dbd-c95535f0019a"/>
+      <powerval level="1" power="wall_running" uniqueid="0ae53011-4854-4563-bf15-36ade20d27fd"/>
+      <powerval level="4" power="mystic_armor" uniqueid="0d8437ef-ff2c-4758-b14c-a65e2f9f82dd"/>
+      <powerval level="4" power="combat_sense" uniqueid="d9164d9e-4a5e-428d-97af-e0cb38cf95e8"/>
+      <powerval choice="blades" level="1" power="critical_strike" uniqueid="386aa767-ecf8-4b68-806f-a40ff695faa7"/>
+      <powerval level="4" power="pain_resistance" uniqueid="9aa40188-3c75-43b3-900b-6609a7cc441f"/>
+   </powers>
+   <size>0</size>
+   <weight>0</weight>
    <gender>MALE</gender>
    <connections>
-      <connection id="924c2c21-6804-4f74-8d71-588d16ce9143" infl="1" loy="2" name="Angel" type="Fixer"/>
+      <connection id="a7a7c97a-5fdd-46a5-9daa-aa640a194742" infl="3" loy="3" name="Angel" type="Fixer"/>
+      <connection id="75b142af-a241-4f3e-8df8-a67ca4f8279a" infl="3" loy="4" name="Pieter Parker" type="Wilderer"/>
+      <connection id="4630665d-09fc-4c40-963a-53a449092f18" infl="2" loy="2" name="Murray" type="Barkeeper"/>
+      <connection id="3214133f-c6ab-456e-94b2-93db16564197" infl="2" loy="2" name="Eva Solo" type="Coporate"/>
    </connections>
    <gear>
-      <item count="1" qual="STANDARD" rating="1" ref="symbionten" uniqueid="5b801c42-163e-471d-95fd-acad9cdef5a3"/>
-      <item count="1" ref="chameleon_suit" uniqueid="6f382ff3-80a3-491c-a76f-f0f6f2106068"/>
-      <item count="1" ref="erika_elite" uniqueid="4dba4dc5-9885-4a80-90a1-6419e2b90e38"/>
-      <item count="1" rating="1" ref="lasermikrofon" uniqueid="d2c26ff2-d747-443a-bd69-91979fd54bcf"/>
-      <item count="1" rating="1" ref="ohrstoepsel" uniqueid="3df161d9-255b-4c7b-8167-a3f3244d7688"/>
-      <item count="10" ref="kamikaze" uniqueid="31746dd9-0725-4b84-beb3-9373fa791349"/>
-      <item count="10" ref="gas_grenade" uniqueid="f4596cd4-d1ee-4de5-ad20-952b2b5a9aca"/>
-      <item count="1" ref="gasmaske" uniqueid="0d8e5681-8f6c-4ac5-87b6-1fed0f2ea34a"/>
-      <item count="1" ref="taschenlampe" uniqueid="3ee190b2-139c-4825-9ba7-4065ce415dcb"/>
-      <item count="1" ref="fn_p93_praetor" uniqueid="368a3571-3c4a-4b69-830d-f0bab960a7fa"/>
-      <item count="10" ref="gel_rounds" uniqueid="eea9eeb4-f3cb-4401-b9fe-46a8bb2dadb3"/>
-      <item count="20" ref="regular_ammo" uniqueid="c3d9ff5d-927f-4a3c-a97b-8d0250daab30"/>
-      <item count="25" rating="3" ref="stim-patch" uniqueid="4aac4de1-2495-42b0-80ac-77bc7a5cd13a"/>
-      <item count="1" rating="4" ref="medkit" uniqueid="bfda3f6c-ad92-4671-84b0-a7f61a2d0486"/>
-      <item count="1" qual="STANDARD" rating="2" ref="muskelverstaerkung" uniqueid="f97ce259-7281-4188-96e9-acc8b8055658"/>
-      <item count="1" qual="DELTA" ref="kompositknochenKunststoff" uniqueid="4a3b33e6-8eea-4ad0-baa3-37ba6660913d"/>
-      <item count="1" qual="DELTA" ref="kompositknochenAluminium" uniqueid="b2785c91-55f1-4b28-831b-f2a8076fcbed"/>
-      <item count="1" qual="STANDARD" rating="3" ref="dermalpanzerung" uniqueid="18178ebb-e9ad-4ac8-a7f4-0487d38b534f"/>
-      <item count="1" ref="ares_predator_v" uniqueid="117ecb9b-4350-4cc9-a008-1a748a62b480">
-         <accessories>
-            <accessory ref="TOP">
-               <carrieditem count="1" ref="smartgun_system_external" uniqueid="3fb827e1-5bf5-4f24-abe3-301172d59539"/>
-            </accessory>
-         </accessories>
-      </item>
-      <item count="20" ref="fletchette_rounds" uniqueid="e50ea53d-abed-4db2-a4cb-339a9fdd8d36"/>
+      <item count="1" ref="bow10" uniqueid="83c77c11-f366-408c-aedc-39333ec8aeab"/>
+      <item count="1" ref="survival_knife" uniqueid="6c3de668-fc81-4f23-a793-050907b6a574"/>
+      <item count="1" ref="armor_clothing" uniqueid="6641ab76-6e52-4443-855c-2017b812ce7f"/>
+      <item count="1" ref="meta_link" uniqueid="e3877663-4595-40cb-8205-ef9dc0fa499b"/>
+      <item count="1" ref="trodes" uniqueid="80d52dfc-7cbe-4d34-8d2b-698231e523bc"/>
    </gear>
    <sins>
-      <sin name="Pick0w" quality="SUPERFICIALLY_PLAUSIBLE" uniqueid="594b7787-4786-47b4-bd27-2b2be3b17bbc"/>
+      <sin quality="REAL_SIN" uniqueid="308bc057-7b7d-4583-a22e-0d041dc76674"/>
    </sins>
    <lifestyles>
-      <lifestyle months="2" ref="squatter" uniqueid="0ffd26a7-f46c-4a9e-9296-0e5575d20b5a"/>
+      <lifestyle months="1" ref="high" uniqueid="5bdb7a46-30c9-471f-8ea8-705a699d0550"/>
    </lifestyles>
-   <licenses>
-      <licenses name="Ares Predator 5" rating="SUPERFICIALLY_PLAUSIBLE" sin="594b7787-4786-47b4-bd27-2b2be3b17bbc" uniqueid="0e33f33d-6b9a-4270-86ef-7100ec3994f1"/>
-      <licenses name="FN P93 Preator" rating="SUPERFICIALLY_PLAUSIBLE" sin="594b7787-4786-47b4-bd27-2b2be3b17bbc" uniqueid="d09e25d6-ac46-49f0-817c-72a50cae7c06"/>
-   </licenses>
    <rewards>
-      <reward exp="2">
+      <reward exp="6">
          <title>Übrig von Erschaffung</title>
          <modifications>
-            <nuyenmod value="5160"/>
+            <nuyenmod value="12500"/>
          </modifications>
       </reward>
    </rewards>
