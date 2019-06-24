@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<sr5char ess="4.8" karmaF="8" magic="adept" meta="troll" nuyen="48880">
+<sr5char ess="4.8" karmaF="8" magic="adept" meta="troll" nuyen="48105">
    <name>Kas</name>
    <realname>Zulkaz</realname>
    <attributes>
@@ -67,6 +67,8 @@
    <connections>
       <connection id="db989aae-1564-4bdf-bda7-63b6621f643a" infl="2" loy="3" name="John Snow" type="Waffenhändler"/>
       <connection id="a82ebf5f-96b7-46cf-ad76-5bc225fdba33" infl="3" loy="3" name="Angel" type="fixer"/>
+      <connection id="83370644-2eb9-435c-867f-c9eae12225ac" infl="3" loy="2" name="Erik Ehrlich" type="Barkeeper"/>
+      <connection id="17bf0969-053a-4992-81be-01c0a4a6250b" infl="2" loy="1" name="Girdanne" type="Sexy-Barkeeperin"/>
    </connections>
    <gear>
       <item count="1" ref="meta_link" uniqueid="f57a5147-6a00-4729-98a2-caeb142665f3"/>
@@ -75,7 +77,6 @@
       <item count="1" ref="walther_palm_pistol" uniqueid="9316bd25-fb9c-41a3-a839-2280975465f8"/>
       <item count="5" ref="regular_ammo" uniqueid="1722252f-95a0-4f4c-9c0d-dc4a9cf0041f"/>
       <item count="5" ref="gel_rounds" uniqueid="402930a6-7f3c-4d9d-a327-a8bd541b4624"/>
-      <item count="1" ref="armor_clothing" uniqueid="9bec4307-6336-4841-8d9d-841a47fc5a21"/>
       <item count="1" ref="kamikaze" uniqueid="6218f5d5-93c3-43b9-a482-9748af4363c5"/>
       <item count="1" qual="STANDARD" rating="1" ref="dermalpanzerung" uniqueid="e34ef3b1-6700-4bd0-b414-b6945b204027"/>
       <item count="1" qual="STANDARD" rating="1" ref="muskelverstaerkung" uniqueid="25b95a21-6d45-4577-8082-f06203cca658"/>
@@ -89,6 +90,7 @@
       </item>
       <item count="1" ref="mctFly-spy" uniqueid="ad86a083-e101-4141-858d-0222487028c8"/>
       <item count="1" ref="shiawaseKanmuchi" uniqueid="bb64921e-2ac2-4f1e-a187-0a8a40ba91e4"/>
+      <item count="1" ref="armor_jacket" uniqueid="2d3b4289-0f45-4b9a-8492-0f44e935ffae"/>
    </gear>
    <sins>
       <sin name="Mikoko" quality="SUPERFICIALLY_PLAUSIBLE" uniqueid="add8c4bf-ab20-4c8a-8f80-f678e02c18e7"/>
