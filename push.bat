@@ -1,4 +1,4 @@
-@echo off
+#@echo off
 set path=C:\Users\<username>\rpgframework\player\myself\shadowrun
 set message="Changed <Charname>"
 
