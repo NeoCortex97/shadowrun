@@ -1,6 +1,6 @@
 @echo off
-path=C:\Users\<username>\rpgframework\player\myself\shadowrun
-message="Changed <Charname>"
+set path=C:\Users\<username>\rpgframework\player\myself\shadowrun
+set message="Changed <Charname>"
 
 cd $path
 git add -A
