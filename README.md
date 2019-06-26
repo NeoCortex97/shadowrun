@@ -12,3 +12,8 @@ The data of my players shadowrun characters
 
 ## Links
 Hier ist der Downloadlink für den "genesis" Charaktergenerator: [rpgframework](https://www.rpgframework.de/index.php/de/genesis-2/)
+
+## Ideen für die Zukunft
+  * Auftritt als Birdie
+  * Abenteuer aus "Im Bann der Karten"
+  * Eigene Kampagne

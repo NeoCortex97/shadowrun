@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<sr5char ess="6.0" karmaF="4" magic="mundane" meta="human" nuyen="5840">
+<sr5char ess="5.1" karmaF="4" magic="mundane" meta="human" nuyen="445">
    <name>Sinu</name>
    <realname>Simone Meck</realname>
    <attributes>
@@ -75,6 +75,43 @@
    <connections>
       <connection id="c92fca9a-7e7b-43a1-b0c6-511b6a9bf9c2" infl="2" loy="1" name="Angel" type="Fixer"/>
    </connections>
+   <gear>
+      <item count="1" ref="ar_gloves" uniqueid="d8a8323d-cff5-4130-930e-0842858fc256"/>
+      <item count="1" rating="6" ref="bug_scanner" uniqueid="159482f9-fd72-4862-bc54-3aa2bfd3b5e7"/>
+      <item count="4" ref="data_tap" uniqueid="d3bc2979-dd4d-4fc7-81a8-e6691ad76651"/>
+      <item count="1" ref="tag_eraser" uniqueid="375f6d2b-f854-4d7c-912f-36f2119e4a03"/>
+      <item count="1" ref="micro-transceiver" uniqueid="3e6b03d3-d842-47fb-a88b-74db3cb32642"/>
+      <item count="1" ref="subvocal_mic" uniqueid="b9bfd8c1-2856-4c33-920f-19ddec7f14d9"/>
+      <item count="1" rating="4" ref="sequencer" uniqueid="ece53fd6-ce26-44cb-94fc-115569fdc4b0"/>
+      <item count="1" rating="3" ref="magnetkarten-kopierer" uniqueid="227eb2a6-9cc8-4bf4-a754-5868f32a7633"/>
+      <item count="1" rating="2" ref="autmatischerDietrich" uniqueid="15dce874-0407-4d51-87d8-f638e052ce22"/>
+      <item count="1" ref="vitalmonitor" uniqueid="e50db40a-2616-440f-8915-3c81ab5b052c"/>
+      <item count="1" rating="2" ref="medkit" uniqueid="ce53dc9a-3885-41b4-9025-90111b638c7e"/>
+      <item count="1" ref="medkit-nachfuellpack" uniqueid="e84b59ad-361c-4827-9891-09b015f16d2e"/>
+      <item count="1" ref="actioneer_business" uniqueid="0be85465-5187-4684-8859-db8a0a3ee117"/>
+      <item count="1" qual="STANDARD" rating="2" ref="Zerebralbooster" uniqueid="e29ff4d1-1491-499a-b42b-53fe86313335"/>
+      <item count="1" qual="STANDARD" ref="cyberaugeStufe1" uniqueid="13cce72a-5306-43ea-a950-d54b3fecd7b8"/>
+      <item count="1" qual="STANDARD" rating="2" ref="mnemoverstaerker" uniqueid="d54c2077-90c4-4896-864a-a0f82105a6ee"/>
+      <item count="1" qual="STANDARD" ref="datenbuchse" uniqueid="6170cac3-7093-4b20-84f0-3563255c09cd"/>
+      <item count="1" ref="fordAmerica" uniqueid="46125466-bf73-4d52-ab78-c5412a4f509c"/>
+      <item count="1" ref="hermes_chariot" uniqueid="fb90bfa9-73e5-46e4-bd11-a01e343f815f">
+         <programs>
+            <programs ref="browse"/>
+            <programs ref="encryption"/>
+            <programs ref="virtual_machine"/>
+            <programs ref="track"/>
+            <programs ref="baby_monitor"/>
+            <programs ref="exploit"/>
+            <programs ref="biofeedback"/>
+            <programs ref="fork"/>
+            <programs ref="sneak"/>
+            <programs ref="lockdown"/>
+         </programs>
+      </item>
+      <item count="1" ref="defiance_ex_shocker" uniqueid="eb61d946-352b-4dc8-83c2-8251cbef3894"/>
+      <item count="1" ref="hk_227" uniqueid="2efa48bd-8ad1-43b7-9655-4cef2ae9665f"/>
+      <item count="1" ref="ares_predator_v" uniqueid="8b78bd8a-e80a-497a-96c1-2761fc4418da"/>
+   </gear>
    <sins>
       <sin name="Raubritterin Rosinante" quality="SUPERFICIALLY_PLAUSIBLE" uniqueid="da8dacce-f454-44b4-95cd-9e12563980bb"/>
    </sins>
