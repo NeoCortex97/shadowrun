@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sr5char ess="6.0" karmaF="4" magic="mundane" meta="human" nuyen="5840">
+   <name>Sinu</name>
+   <realname>Simone Meck</realname>
+   <attributes>
+      <attribute id="BODY" start="2" value="2"/>
+      <attribute id="AGILITY" start="1" value="1"/>
+      <attribute id="REACTION" start="1" value="1"/>
+      <attribute id="STRENGTH" value="0"/>
+      <attribute id="WILLPOWER" start="2" value="2"/>
+      <attribute id="LOGIC" start="6" value="6"/>
+      <attribute id="INTUITION" start="4" value="4"/>
+      <attribute id="CHARISMA" value="0"/>
+      <attribute id="EDGE" start="3" value="3"/>
+      <attribute id="MAGIC" value="0"/>
+      <attribute id="RESONANCE" value="0"/>
+      <attribute id="ESSENCE" start="6" value="6"/>
+   </attributes>
+   <skillval skill="computer" start="2" val="2">
+      <skillspec special="computer/matrix_perception"/>
+   </skillval>
+   <skillval skill="hacking" start="1" val="1">
+      <skillspec special="hacking/personas"/>
+   </skillval>
+   <skillval skill="hardware" start="2" val="2">
+      <skillspec special="hardware/cyberdecks"/>
+   </skillval>
+   <skillval skill="cybercombat" start="1" val="1">
+      <skillspec special="cybercombat/personas"/>
+   </skillval>
+   <skillval skill="running" start="3" val="3"/>
+   <skillval skill="sneaking" start="3" val="3"/>
+   <skillval skill="biotechnology" start="1" val="1"/>
+   <skillval skill="first_aid" start="1" val="1"/>
+   <skillval skill="medicine" start="4" val="4"/>
+   <skillval skill="armorer" start="3" val="3"/>
+   <skillval skill="automotive_mechanic" start="3" val="3"/>
+   <skillval skill="forgery" start="3" val="3"/>
+   <skillval skill="demolitions" start="1" val="1"/>
+   <skillval custname="Deutsch" skill="native_language" start="4" val="4"/>
+   <skillval custname="Englisch" skill="language" start="3" val="3"/>
+   <skillval skill="unarmed" start="3" val="3"/>
+   <skillval skill="pistols" start="3" val="3"/>
+   <skillval skill="automatics" start="5" val="5"/>
+   <skillval skill="perception" start="5" val="5"/>
+   <skillval custname="Matrixspiele - Allgemein" skill="interest" start="1" val="1"/>
+   <skillval custname="Runnertreffpunkte" skill="street_knowledge" start="2" val="2"/>
+   <skillval custname="Hackergruppierungen - Foren" skill="interest" start="3" val="3"/>
+   <skillval custname="Geländekunde - Hamburg" skill="street_knowledge" start="2" val="2"/>
+   <skillval custname="Technik - allgemein" skill="academic_knowledge" start="3" val="3"/>
+   <skillval custname="Schmugglerrouten - allgemein" skill="street_knowledge" start="1" val="1"/>
+   <skillval custname="Sperrethiel" skill="language" start="2" val="2"/>
+   <skillval custname="Polizeivorgehen - Taktiken" skill="street_knowledge" start="3" val="3"/>
+   <skillval custname="Organisiertes Verbrechen - allgemein" skill="street_knowledge" start="4" val="4"/>
+   <skillval skill="freefall" start="3" val="3"/>
+   <skillval skill="electronic_warfare" start="6" val="6"/>
+   <skillval skill="hacking" start="6" val="6"/>
+   <skillval skill="cybercombat" start="6" val="6"/>
+   <skillval skill="computer" start="4" val="4"/>
+   <skillval skill="hardware" start="4" val="4"/>
+   <skillval skill="software" start="4" val="4"/>
+   <qualities>
+      <qualityval quality="prejudiced_specific_biased" val="1">
+         <description>Gremlins</description>
+      </qualityval>
+      <qualityval quality="analytical_mind" val="1"/>
+      <qualityval quality="overclocker" val="1"/>
+      <qualityval choice="LOGIC" quality="exceptional_attribute" val="1">
+         <description>Logik</description>
+      </qualityval>
+   </qualities>
+   <size>171</size>
+   <weight>63</weight>
+   <gender>FEMALE</gender>
+   <connections>
+      <connection id="c92fca9a-7e7b-43a1-b0c6-511b6a9bf9c2" infl="2" loy="1" name="Angel" type="Fixer"/>
+   </connections>
+   <sins>
+      <sin name="Raubritterin Rosinante" quality="SUPERFICIALLY_PLAUSIBLE" uniqueid="da8dacce-f454-44b4-95cd-9e12563980bb"/>
+   </sins>
+   <lifestyles>
+      <lifestyle months="1" ref="low" sin="da8dacce-f454-44b4-95cd-9e12563980bb" uniqueid="375f9cf8-351e-48f6-947a-f6c8fefcc05a"/>
+   </lifestyles>
+   <rewards>
+      <reward exp="4">
+         <title>Übrig von Erschaffung</title>
+         <modifications>
+            <nuyenmod value="5840"/>
+         </modifications>
+      </reward>
+   </rewards>
+</sr5char>
